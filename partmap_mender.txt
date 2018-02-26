@@ -4,5 +4,5 @@ flash=mmc,0:fip-secure:boot:0x60200,0x180000:secure.img;
 flash=mmc,0:fip-nonsecure:boot:0x1E0200,0x100000:nonsecure.img;
 flash=mmc,0:env:env:0x2E0200,0x4000:params.bin;
 flash=mmc,0:rootfsa:emmc:0x400000,0x70600000:rootfs.img;
-flash=mmc,0:rootfsb:emmc:0x70A00000,0x70600000:rootfs.img;
+flash=mmc,0:rootfsb:emmc:0x70A00000,0x70600000:dummy;
 flash=mmc,0:data:emmc:0xE1000000,0x8000000:data.img;
